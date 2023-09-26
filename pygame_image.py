@@ -28,7 +28,7 @@ def main():
         screen.blit(bird_imgs[num],[300,200])
         pg.display.update()
         tmr += 1        
-        clock.tick(1000)
+        clock.tick(500)
 
 
 if __name__ == "__main__":
