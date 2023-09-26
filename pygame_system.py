@@ -21,7 +21,7 @@ def main():
         screen.blit(txt, [300, 200])
         screen.blit(enn, [100, 400])
         pg.display.update()
-        tmr += 2       
+        tmr += 1       
         clock.tick(1)
 
 
